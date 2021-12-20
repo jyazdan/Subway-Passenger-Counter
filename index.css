@@ -1,0 +1,57 @@
+body {
+  background-image: url(/img/subway.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+} 
+
+button {
+  cursor: pointer; 
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  
+}
+
+#increment-btn {
+  background: darkred;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#save-btn {
+  background: darkblue;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#save-el {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
